@@ -1,7 +1,14 @@
-#include "Game.h"
-
-int main(int argc, char* argv[]) {
-    Game game;
-    game.run();
-    return 0;
-}
+duper/
+├── src/
+│   ├── main.cpp
+│   ├── Game.cpp
+│   ├── Game.h
+│   ├── Player.cpp
+│   ├── Player.h
+│   └── Platform.cpp
+│   └── Platform.h
+├── include/
+├── assets/
+│   ├── player.png
+│   └── platform.png
+└── CMakeLists.txt
